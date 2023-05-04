@@ -238,7 +238,7 @@ p span {
   display: flex;
   gap: 25px;
 }
-.connection-containers .connection-look .numbers p {
+.connection-containers .connection-look .numbers h4 {
   font-size: 1.375rem;
   font-weight: 700;
   line-height: 27px;
@@ -399,12 +399,12 @@ p span {
   }
   .hamburger-menu .extra {
     width: 360px;
-    height: 60vh;
+    height: 65vh;
     position: absolute;
     top: -100vh;
     text-align: center;
     z-index: 88;
-    padding-top: 50px;
+    padding-top: 70px;
     background-color: black;
   }
   .hamburger-menu .extra .nav-link {
@@ -473,7 +473,7 @@ p span {
     -webkit-transform: rotate(90deg) translateY(0px);
             transform: rotate(90deg) translateY(0px);
     width: 100%;
-    height: 55vh;
+    height: 48vh;
   }
   .connection-look {
     display: -webkit-box;
@@ -486,14 +486,11 @@ p span {
     gap: 0px;
   }
   .connection-look .numbers {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 0px;
+    gap: 5px;
   }
 }
 @media (max-width: 560px) {
@@ -517,27 +514,27 @@ p span {
 }
 @media (max-width: 362px) {
   .container {
-    max-width: 360px;
+    max-width: 350px;
   }
   .hamburger-menu {
     padding: 25px 15px;
   }
   .about-the-event-container {
-    padding: 80px 15px;
+    padding: 60px 10px;
   }
   .about-container {
-    padding: 80px 15px;
+    padding: 60px 0;
   }
   .quest-ans-container {
-    padding: 100px 15px;
+    padding: 80px 0;
   }
   .header {
     padding: 25px 15px;
   }
   .content {
-    padding: 0 15px;
+    padding: 0;
   }
   .footer-container {
-    padding: 0 15px;
+    padding: 0;
   }
 }
